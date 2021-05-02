@@ -1,0 +1,99 @@
+body{
+    text-align: center;
+    background-image: url("../static.images/static.header.background.jpeg");
+    width:100%;
+    background-color: black;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+a:link, a:visited{
+    background-color: white;
+    color: black;
+}
+a:hover, a:active{
+    opacity: 0.3
+}
+
+.wrapper{
+    margin-top: 100px;
+}
+
+#login{
+    border: solid 1px black;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 10px;
+    background-color: white;
+    width: 70px;
+
+}
+
+#header{
+    text-align: center;
+    justify-content: center;
+    
+}/* insert header image from static.images*/
+
+
+
+h3{
+    color: white;
+}
+h1{
+    color: white;
+}
+h5{
+    color: white;
+}
+
+p{
+    color: greenyellow;
+}
+h2{
+    color: green;
+
+}
+
+
+h4{
+    color: black;
+    position: absolute;
+    border: solid 1px white;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    width: 40%;
+    position: relative;
+    left: 28%;
+    padding-inline-start: 2%;
+    padding-inline-end: 2%;
+
+}
+
+
+
+h6{
+    border: solid 1px white;
+    border-radius: 20px 20px 20px 20px;
+    width: 70px;
+    background-color: white;
+    position: relative;
+    left: 46.5%;
+    
+
+}
+.media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#pastandcurrent{
+    margin: 15px;
+    height: 500px;
+}
+#movies{
+    margin: 15px;
+    height: 500px;
+}
+
